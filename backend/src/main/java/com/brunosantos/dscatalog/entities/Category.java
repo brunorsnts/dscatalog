@@ -1,6 +1,7 @@
 package com.brunosantos.dscatalog.entities;
 
 import jakarta.persistence.*;
+import lombok.AccessLevel;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -9,7 +10,7 @@ import java.io.Serializable;
 import java.time.Instant;
 
 @Getter
-@Setter()
+@Setter
 @EqualsAndHashCode
 @Entity
 @Table(name = "tb_category")
@@ -20,9 +21,11 @@ public class Category implements Serializable {
     private Long id;
     private String name;
 
+    @Setter(AccessLevel.NONE)
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant createdAt;
 
+    @Setter(AccessLevel.NONE)
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant updatedAt;
 
