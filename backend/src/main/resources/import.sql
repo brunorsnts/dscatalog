@@ -1,3 +1,40 @@
-INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Books', NOW())
-INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Electronics', NOW())
-INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Computers', NOW())
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Smartphones', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Laptops', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Tablets', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Smartwatches', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Gaming Consoles', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('PC Components', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Peripherals', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Monitors', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Printers', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Cameras', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Audio & Sound', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Headphones', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Smart Home', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Televisions', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Drones', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Office Supplies', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Furniture', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Lighting', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Kitchenware', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Home Decor', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Bed & Bath', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Garden & Outdoors', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Tools & Hardware', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Automotive', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Sports', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Fitness Equipment', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Camping Gear', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Mens Clothing', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Womens Clothing', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Kids Fashion', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Shoes', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Accessories', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Jewelry', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Beauty & Health', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Toys', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Board Games', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Musical Instruments', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Pet Supplies', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Groceries', NOW());
+INSERT INTO TB_CATEGORY(NAME, created_At) VALUES ('Gift Cards', NOW());
