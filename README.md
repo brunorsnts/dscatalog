@@ -66,23 +66,6 @@ POST /categories → Criar uma nova categoria
 
 Para testar com credenciais diferentes e ver permissões diferentes, crie contas com papéis distintos ou configure seed de banco de dados.
 
-** Organização do código **
-
-O projeto segue uma estrutura típica de aplicação REST com Spring:
-
-src/
-├── main/
-│   ├── java/
-│   │   ├── controller/    ⇨ Endpoints REST
-│   │   ├── service/       ⇨ Regras de negócio
-│   │   ├── repository/    ⇨ Acesso a dados
-│   │   ├── model/         ⇨ Entidades
-│   │   └── dto/           ⇨ Objetos de transferência
-│   └── resources/
-│       ├── application.properties
-|       ├── application-test.properties
-│       └── db/
-
 ** Ideias para próximas melhorias **
 
 Você pode expandir o projeto com:
