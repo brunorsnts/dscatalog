@@ -9,17 +9,9 @@ DSCatalog é uma aplicação de catálogo de produtos desenvolvida como projeto 
 
 📌 CRUD completo de Produtos, Categorias e Usuários
 
-🔐 Autenticação via OAuth2 + JWT
-
-👤 Controle de acesso por perfil (ex.: ROLE_ADMIN, ROLE_OPERATOR)
-
-🧪 Testes automatizados com JUnit e Mockito
-
 📊 Paginação de resultados nas listagens
 
 📍 Estrutura de projeto em camadas (Controller → Service → Repository)
-
-📦 Utiliza Bean Validation para garantir integridade dos dados
 
 🛠 Tecnologias usadas
 Categoria	Ferramenta / Framework
