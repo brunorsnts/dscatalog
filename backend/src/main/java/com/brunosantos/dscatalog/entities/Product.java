@@ -1,6 +1,9 @@
 package com.brunosantos.dscatalog.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
+import jakarta.validation.constraints.Positive;
 import lombok.AccessLevel;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -22,6 +25,7 @@ public class Product {
     @EqualsAndHashCode.Include
     private Long id;
     private String name;
+
     @Column(columnDefinition = "TEXT")
     private String description;
     private Double price;

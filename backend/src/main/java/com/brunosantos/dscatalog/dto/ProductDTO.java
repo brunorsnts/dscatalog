@@ -2,6 +2,9 @@ package com.brunosantos.dscatalog.dto;
 
 import com.brunosantos.dscatalog.entities.Category;
 import com.brunosantos.dscatalog.entities.Product;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
+import jakarta.validation.constraints.Positive;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,10 +19,18 @@ import java.util.Set;
 public class ProductDTO implements Serializable {
 
     private Long id;
+
+    @NotBlank(message = "Campo obrigatório")
     private String name;
+
+    @NotBlank(message = "Campo obrigatório")
     private String description;
+
+    @Positive(message = "Permitido apenas valores positivos")
     private Double price;
     private String imgUrl;
+
+    @PastOrPresent(message = "Não é permitido datas futuras")
     private Instant date;
 
     private List<CategoryDTO> categories = new ArrayList<>();

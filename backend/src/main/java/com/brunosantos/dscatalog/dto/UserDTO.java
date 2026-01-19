@@ -1,6 +1,8 @@
 package com.brunosantos.dscatalog.dto;
 
 import com.brunosantos.dscatalog.entities.User;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,8 +18,15 @@ import java.util.Set;
 public class UserDTO {
 
     private Long id;
+
+    @NotBlank(message = "Campo obrigatório")
     private String firstName;
+
+    @NotBlank(message = "Campo obrigatório")
     private String lastName;
+
+    @NotBlank(message = "Campo obrigatório")
+    @Email
     private String email;
     private Set<RoleDTO> roles = new HashSet<>();
 
