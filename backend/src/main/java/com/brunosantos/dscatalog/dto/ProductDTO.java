@@ -2,8 +2,6 @@ package com.brunosantos.dscatalog.dto;
 
 import com.brunosantos.dscatalog.entities.Category;
 import com.brunosantos.dscatalog.entities.Product;
-import jakarta.persistence.Column;
-import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 
