@@ -1,6 +1,7 @@
 package com.brunosantos.dscatalog.dto;
 
 import com.brunosantos.dscatalog.entities.User;
+import com.brunosantos.dscatalog.services.validation.UserInsertValid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
