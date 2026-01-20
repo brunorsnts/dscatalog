@@ -3,6 +3,7 @@ package com.brunosantos.dscatalog.services;
 import com.brunosantos.dscatalog.dto.RoleDTO;
 import com.brunosantos.dscatalog.dto.UserDTO;
 import com.brunosantos.dscatalog.dto.UserInsertDTO;
+import com.brunosantos.dscatalog.dto.UserUpdateDTO;
 import com.brunosantos.dscatalog.entities.Role;
 import com.brunosantos.dscatalog.entities.User;
 import com.brunosantos.dscatalog.repositories.RoleRepository;
@@ -56,7 +57,7 @@ public class UserService {
     }
 
     @Transactional
-    public UserDTO update(Long id, UserDTO dto) {
+    public UserDTO update(Long id, UserUpdateDTO dto) {
         try {
             User entity = repository.getReferenceById(id);
             CopyDtoToEntity(dto, entity);
